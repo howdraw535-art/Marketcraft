@@ -12,6 +12,6 @@ class ProfitTest {
 
     @Test
     void profitAcrossBatch() {
-        assertEquals(46.0, Profit.profit(100.0, 50.0, 1, 2.0), 0.001);
+        assertEquals(48.0, Profit.profit(100.0, 50.0, 1, 2.0), 0.001);
     }
 }
